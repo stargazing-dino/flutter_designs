@@ -1,5 +1,5 @@
 import 'package:designs/pages/airline/airline.dart';
-import 'package:designs/pages/food.dart';
+import 'package:designs/pages/user_profile/user_profile.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(App());
@@ -12,7 +12,7 @@ class App extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue),
       home: Home(),
       routes: {
-        '/food': (_) => FoodPage(),
+        '/user_profile': (_) => UserProfilePage(),
         '/airline': (_) => AirlinePage(),
       },
     );
@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
             mainAxisSpacing: 16,
           ),
           children: <Widget>[
-            PageButton(title: 'Food', to: '/food'),
+            PageButton(title: 'User', to: '/user_profile'),
             PageButton(title: 'Airline', to: '/airline'),
             PageButton(title: 'Food', to: '/food'),
             PageButton(title: 'Food', to: '/food'),
