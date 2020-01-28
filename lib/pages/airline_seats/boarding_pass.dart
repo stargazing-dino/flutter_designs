@@ -1,8 +1,8 @@
 import 'dart:math';
 
 import 'package:designs/constants.dart';
-import 'package:designs/pages/airline/ticket.dart';
-import 'package:designs/pages/airline/timeline.dart';
+import 'package:designs/pages/airline_seats/ticket.dart';
+import 'package:designs/pages/airline_seats/timeline.dart';
 import 'package:flutter/material.dart';
 
 class BoardingPass extends StatelessWidget {

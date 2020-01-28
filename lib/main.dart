@@ -1,7 +1,8 @@
 import 'package:designs/constants.dart';
-import 'package:designs/pages/airline_seats/airline.dart';
+import 'package:designs/pages/airline_seats/airline_seats.dart';
 import 'package:designs/pages/giraffe_education/giraffe_education.dart';
 import 'package:designs/pages/mia_user_profile/mia_user_profile.dart';
+import 'package:designs/pages/tech_education/tech_education.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(App());
@@ -16,7 +17,8 @@ class App extends StatelessWidget {
       routes: {
         '/mia_user_profile': (_) => MiaUserProfilePage(),
         '/airline_seats': (_) => AirlineSeatsPage(),
-        '/giraffe': (_) => GiraffeEducationPage(),
+        '/giraffe_education': (_) => GiraffeEducationPage(),
+        '/tech_education': (_) => TechEducationPage(),
       },
     );
   }
@@ -43,8 +45,9 @@ class _HomeState extends State<Home> {
           ),
           children: <Widget>[
             PageButton(title: 'Mia\'s Profile', to: '/mia_user_profile'),
-            PageButton(title: 'Airline Seats', to: '/airline'),
-            PageButton(title: 'Giraffe', to: '/giraffe'),
+            PageButton(title: 'Airline Seats', to: '/airline_seats'),
+            PageButton(title: 'Giraffe Education', to: '/giraffe_education'),
+            PageButton(title: 'Tech Education', to: '/tech_education'),
           ],
         ),
       ),
