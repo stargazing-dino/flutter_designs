@@ -1,3 +1,5 @@
+See also my [Flutter algorithm visualizations](https://github.com/Nolence/flutter_challenges)
+
 # Recreated Dribbble Designs
 
 These designs have partial to full functionality and were recreated by me in native Flutter using minimal libraries.

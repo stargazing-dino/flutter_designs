@@ -1,15 +1,15 @@
 import 'package:designs/constants.dart';
-import 'package:designs/pages/airline/boarding_pass.dart';
-import 'package:designs/pages/airline/plane_painter.dart';
+import 'package:designs/pages/airline_seats/boarding_pass.dart';
+import 'package:designs/pages/airline_seats/plane_painter.dart';
 import 'package:flutter/material.dart';
 
 // https://dribbble.com/shots/9706802-Check-in-flow-LOT-iOS-App/attachments/1736215?mode=media
-class AirlinePage extends StatefulWidget {
+class AirlineSeatsPage extends StatefulWidget {
   @override
-  _AirlinePageState createState() => _AirlinePageState();
+  _AirlineSeatsPageState createState() => _AirlineSeatsPageState();
 }
 
-class _AirlinePageState extends State<AirlinePage> {
+class _AirlineSeatsPageState extends State<AirlineSeatsPage> {
   final letters = 'ABCDEFG';
   String selectedSeat;
   final List<String> availableSeats = ['B6', 'E11', 'A15', 'B15', 'F8'];

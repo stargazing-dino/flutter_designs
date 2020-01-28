@@ -1,9 +1,9 @@
 import 'package:designs/constants.dart';
-import 'package:designs/pages/user_profile/photo_urls.dart';
+import 'package:designs/pages/mia_user_profile/photo_urls.dart';
 import 'package:designs/shared/rounded_square.dart';
 import 'package:flutter/material.dart';
 
-class UserProfilePage extends StatelessWidget {
+class MiaUserProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final screenHeight = MediaQuery.of(context).size.height;
