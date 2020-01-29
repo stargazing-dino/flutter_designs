@@ -4,14 +4,14 @@ description: Dribbble recreations in Flutter
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.1.0"
+  sdk: ">=2.3.0 <3.1.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
   flutter_svg:
-
+  dotted_border:
   cupertino_icons: ^0.1.2
 
 dev_dependencies:
@@ -24,3 +24,4 @@ flutter:
   assets:
     - assets/
     - assets/tech_education/
+    - assets/design_meetings/

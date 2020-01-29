@@ -9,23 +9,23 @@ class TechEducationPage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: <Widget>[
-          SafeArea(
-            child: Align(
-              alignment: Alignment.topCenter,
-              child: FlatButton.icon(
-                label: Text('Go Back'),
-                onPressed: () {},
-                icon: Icon(Icons.arrow_back),
-              ),
-            ),
-          ),
           Padding(
             padding: const EdgeInsets.symmetric(
               vertical: kPaLg,
               horizontal: kPa,
             ),
             child: TechEducationBody(),
-          )
+          ),
+          SafeArea(
+            child: Align(
+              alignment: Alignment.topCenter,
+              child: FlatButton.icon(
+                label: Text('Go Back'),
+                onPressed: Navigator.of(context).maybePop,
+                icon: Icon(Icons.arrow_back),
+              ),
+            ),
+          ),
         ],
       ),
     );
