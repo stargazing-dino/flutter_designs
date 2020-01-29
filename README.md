@@ -19,3 +19,9 @@ These designs have partial to full functionality and were recreated by me in nat
 |       |       |
 |------------|-------------|
 | <img src="excluded_assets/tech_education/tech_education.png" alt="drawing" width="250"/> | <img src="excluded_assets/tech_education/fundamental_javascript.png" alt="drawing" width="250"/> |
+
+# [Design Meetings](https://dribbble.com/shots/9565876/attachments/1593881?mode=media)
+
+|       |       |
+|------------|-------------|
+| <img src="excluded_assets/design_meetings/design_meetings.png" alt="drawing" width="250"/> | <img src="excluded_assets/design_meetings/meetings_details.png" alt="drawing" width="250"/> |
