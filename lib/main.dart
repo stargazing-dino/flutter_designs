@@ -3,6 +3,7 @@ import 'package:designs/pages/airline_seats/airline_seats.dart';
 import 'package:designs/pages/design_meetings/design_meetings.dart';
 import 'package:designs/pages/giraffe_education/giraffe_education.dart';
 import 'package:designs/pages/mia_user_profile/mia_user_profile.dart';
+import 'package:designs/pages/punch_app/punch_app_home.dart';
 import 'package:designs/pages/tech_education/tech_education.dart';
 import 'package:flutter/material.dart';
 
@@ -21,6 +22,7 @@ class App extends StatelessWidget {
         '/giraffe_education': (_) => GiraffeEducationPage(),
         '/tech_education': (_) => TechEducationPage(),
         '/design_meetings': (_) => DesignMeetingsPage(),
+        '/punch_app': (_) => PunchAppHome(),
       },
     );
   }
@@ -51,6 +53,7 @@ class _HomeState extends State<Home> {
             PageButton(title: 'Giraffe Education', to: '/giraffe_education'),
             PageButton(title: 'Tech Education', to: '/tech_education'),
             PageButton(title: 'Design Meetings', to: '/design_meetings'),
+            PageButton(title: 'Punch App', to: '/punch_app'),
           ],
         ),
       ),

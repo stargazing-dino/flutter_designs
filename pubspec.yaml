@@ -12,6 +12,7 @@ dependencies:
 
   flutter_svg:
   dotted_border:
+  smooth_page_indicator:
   cupertino_icons: ^0.1.2
 
 dev_dependencies:

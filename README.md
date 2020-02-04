@@ -25,3 +25,9 @@ These designs have partial to full functionality and were recreated by me in nat
 |       |       |
 |------------|-------------|
 | <img src="excluded_assets/design_meetings/design_meetings.png" alt="drawing" width="250"/> | <img src="excluded_assets/design_meetings/meetings_details.png" alt="drawing" width="250"/> |
+
+# [Punch App](https://dribbble.com/shots/9849928-Loyalty-cards-collection-product-Punch-app-version-2)
+
+|       |       |       |
+|------------|-------------|-------------|
+| <img src="excluded_assets/punch_app/splash.png" alt="drawing" width="250"/> | <img src="excluded_assets/punch_app/auth_page.png" alt="drawing" width="250"/> | <img src="excluded_assets/punch_app/sign_up.png" alt="drawing" width="250"/> |
