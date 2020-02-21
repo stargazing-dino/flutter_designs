@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
 
+  google_fonts:
   flutter_svg:
   dotted_border:
   smooth_page_indicator:

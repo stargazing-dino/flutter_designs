@@ -2,6 +2,7 @@ import 'package:designs/constants.dart';
 import 'package:designs/pages/airline_seats/airline_seats.dart';
 import 'package:designs/pages/design_meetings/design_meetings.dart';
 import 'package:designs/pages/giraffe_education/giraffe_education.dart';
+import 'package:designs/pages/medical_quiz/medical_quiz.dart';
 import 'package:designs/pages/mia_user_profile/mia_user_profile.dart';
 import 'package:designs/pages/punch_app/punch_app_home.dart';
 import 'package:designs/pages/tech_education/tech_education.dart';
@@ -17,6 +18,7 @@ class App extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue),
       home: Home(),
       routes: {
+        '/medical_quiz': (_) => MedicalQuiz(),
         '/mia_user_profile': (_) => MiaUserProfilePage(),
         '/airline_seats': (_) => AirlineSeatsPage(),
         '/giraffe_education': (_) => GiraffeEducationPage(),
@@ -48,6 +50,7 @@ class _HomeState extends State<Home> {
             mainAxisSpacing: 16,
           ),
           children: <Widget>[
+            PageButton(title: 'Medical Quizes', to: '/medical_quiz'),
             PageButton(title: 'Mia\'s Profile', to: '/mia_user_profile'),
             PageButton(title: 'Airline Seats', to: '/airline_seats'),
             PageButton(title: 'Giraffe Education', to: '/giraffe_education'),
